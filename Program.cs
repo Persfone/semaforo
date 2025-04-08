@@ -1,7 +1,4 @@
 ﻿using System;
-
-
-
 public class Semaforo
 {
     private enum Estado
@@ -13,10 +10,9 @@ public class Semaforo
     }
 
     private Estado estadoActual;
-    private int tiempoTranscurrido;
     private bool intermitente;
     private bool amarilloVisible;
-    private int tiempoIntermitente;
+    
 
 
     public Semaforo(string colorInicial)
@@ -36,10 +32,10 @@ public class Semaforo
              
         }
 
-        tiempoTranscurrido = 0;
+        
         intermitente = false;
         amarilloVisible = true;
-        tiempoIntermitente = 0;
+       
     }
 
     public void PasoDelTiempo(int segundos)
@@ -106,7 +102,8 @@ public class Semaforo
     {
         if (intermitente)
         {
-            return amarilloVisible ? "Amarillo" : "Apagado";
+            amarilloVisible = !amarilloVisible;
+            return amarilloVisible ? "Apagado" : "Amarillo";
         }
 
         switch (estadoActual)
@@ -127,13 +124,13 @@ public class Semaforo
     {
         intermitente = true;
         amarilloVisible = true;
-        tiempoIntermitente = 0;
+       
     }
 
     public void SacarDeIntermitente()
     {
         intermitente = false;
-        amarilloVisible = true;
+        amarilloVisible = false;
     }
 }
 
@@ -145,13 +142,13 @@ public class Program
     public static void Main()
     {
         // Crear semáforo inicializado en Rojo
-        Semaforo semaforo = new Semaforo("Rojo");
+        Semaforo semaforo = new Semaforo("Amarillo");
 
         Console.WriteLine("Semáforo recién creado:");
         Console.WriteLine(semaforo.MostrarColor());
 
         // Simular paso del tiempo
-        Console.WriteLine("\nSimulando 54 segundos:");
+        Console.WriteLine("\nSimulando 42 segundos:");
         semaforo.PasoDelTiempo(42);
         Console.WriteLine(semaforo.MostrarColor());
 
