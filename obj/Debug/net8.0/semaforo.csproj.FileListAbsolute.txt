@@ -1,0 +1,14 @@
+C:\Users\Dana\source\repos\semaforo\bin\Debug\net8.0\semaforo.exe
+C:\Users\Dana\source\repos\semaforo\bin\Debug\net8.0\semaforo.deps.json
+C:\Users\Dana\source\repos\semaforo\bin\Debug\net8.0\semaforo.runtimeconfig.json
+C:\Users\Dana\source\repos\semaforo\bin\Debug\net8.0\semaforo.dll
+C:\Users\Dana\source\repos\semaforo\bin\Debug\net8.0\semaforo.pdb
+C:\Users\Dana\source\repos\semaforo\obj\Debug\net8.0\semaforo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dana\source\repos\semaforo\obj\Debug\net8.0\semaforo.AssemblyInfoInputs.cache
+C:\Users\Dana\source\repos\semaforo\obj\Debug\net8.0\semaforo.AssemblyInfo.cs
+C:\Users\Dana\source\repos\semaforo\obj\Debug\net8.0\semaforo.csproj.CoreCompileInputs.cache
+C:\Users\Dana\source\repos\semaforo\obj\Debug\net8.0\semaforo.dll
+C:\Users\Dana\source\repos\semaforo\obj\Debug\net8.0\refint\semaforo.dll
+C:\Users\Dana\source\repos\semaforo\obj\Debug\net8.0\semaforo.pdb
+C:\Users\Dana\source\repos\semaforo\obj\Debug\net8.0\semaforo.genruntimeconfig.cache
+C:\Users\Dana\source\repos\semaforo\obj\Debug\net8.0\ref\semaforo.dll

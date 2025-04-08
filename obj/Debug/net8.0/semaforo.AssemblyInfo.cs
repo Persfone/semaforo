@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("semaforo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b41c6202a2cb0706766ec8f56fedacd9c972c76c")]
 [assembly: System.Reflection.AssemblyProductAttribute("semaforo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("semaforo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
